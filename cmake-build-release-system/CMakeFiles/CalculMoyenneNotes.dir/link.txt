@@ -1,1 +1,0 @@
-/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/CalculMoyenneNotes.dir/main.cpp.o -o CalculMoyenneNotes

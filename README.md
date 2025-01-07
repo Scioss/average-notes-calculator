@@ -1,1 +1,1 @@
-My first small program created as part of my C++ learning journey. This project helped me practice basic C++ concepts like input/output, variables, and simple logic. Any feedback or suggestions for improvement are welcome!
+My first small program created as part of my C++ learning journey. This project helped me practice basic C++ concepts like input/output, variables, and simple logic. Any feedback or suggestions for improvement are welcome

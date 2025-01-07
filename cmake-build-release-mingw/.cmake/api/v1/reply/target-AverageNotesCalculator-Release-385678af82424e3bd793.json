@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "CalculMoyenneNotes.exe"
+			"path" : "AverageNotesCalculator.exe"
 		},
 		{
-			"path" : "CalculMoyenneNotes.pdb"
+			"path" : "AverageNotesCalculator.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -56,7 +56,7 @@
 			]
 		}
 	],
-	"id" : "CalculMoyenneNotes::@6890427a1f51a3e7e1df",
+	"id" : "AverageNotesCalculator::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -76,8 +76,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "CalculMoyenneNotes",
-	"nameOnDisk" : "CalculMoyenneNotes.exe",
+	"name" : "AverageNotesCalculator",
+	"nameOnDisk" : "AverageNotesCalculator.exe",
 	"paths" : 
 	{
 		"build" : ".",

@@ -1,4 +1,4 @@
-# Install script for directory: F:/Programmation/Projets/CalculMoyenneNotes
+# Install script for directory: F:/Programmation/Projets/Average Notes Calculator
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -52,6 +52,6 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-  file(WRITE "F:/Programmation/Projets/CalculMoyenneNotes/cmake-build-release-mingw/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "F:/Programmation/Projets/Average Notes Calculator/cmake-build-release-mingw/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

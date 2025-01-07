@@ -18,77 +18,77 @@ std::vector<float> evenNotesList{};
 std::vector<float> oddNotesList{};
 std::vector<float> decimalNotesList{};
 
-//calcule la moyenne pondérée des notes
+// Calculate the weighted average of the notes
 void table_calculate() {
-    //Ajouter toutes les notes à la somme des notes pour le calcul
+    // Add all notes to the sum of notes for the calculation
     for (int i = 0; i <= notesList.size()-1; i++) {
         noteSum += notesList[i];
     }
-    //Calcul de la moyenne
+    // Calculate the average
     averageNote = noteSum / notesList.size();
-    //Calcul du minimum, on prends la première valeur et on la compare avec le reste
+    // Calculate the minimum, take the first value and compare it with the rest
     minimumNote = notesList[0];
     for (int i = 1; i <= notesList.size()-1; i++) {
         if (notesList[i] < minimumNote) {
             minimumNote = notesList[i];
         }
     }
-    //On fait la même pour le maximum
+    // Do the same for the maximum
     maximumNote = notesList[0];
     for (int i = 1; i <= notesList.size()-1; i++) {
         if (notesList[i] > maximumNote) {
             maximumNote = notesList[i];
         }
     }
-    //On recherche les nombres pairs ou non, on utilise le reste du modulo à 0 pour repérer ça
+    // Identify even or odd numbers, using modulo remainder 0 to find them
     for (int i = 0; i <= notesList.size()-1; i++) {
-        //Vérifie si un nombre est un décimal ou non, afin de savoir si on applique le modulo ou non
+        // Check if a number is decimal or not, to decide whether to apply modulo
         if (!(std::fmod(notesList[i],1.0) != 0.0)) {
             convertedNote = static_cast<int>(notesList[i]);
             if (convertedNote%2==0) {
-                //Si c'est pair, on l'ajoute à sa liste
+                // If it's even, add it to its list
                 evenNotesList.push_back(notesList[i]);
             }
             else {
-                //Si c'est un impair, on l'ajoute à sa liste
+                // If it's odd, add it to its list
                 oddNotesList.push_back(notesList[i]);
             }
         }
         else {
-            //Si c'est un décimal, on l'ajoute à sa liste
+            // If it's decimal, add it to its list
             decimalNotesList.push_back(notesList[i]);
         }
 
     }
 
-    std::cout << "Somme des notes : "           << noteSum              << std::endl;
-    std::cout << "Nombre de notes : "           << notesList.size()     << std::endl;
-    std::cout << "Moyenne des notes : "         << averageNote          << std::endl;
-    std::cout << "Note minimale : "             << minimumNote          << std::endl;
-    std::cout << "Note maximale : "             << maximumNote          << std::endl;
-    std::cout << "Notes paires : ";
+    std::cout << "Sum of notes: "           << noteSum              << std::endl;
+    std::cout << "Number of notes: "        << notesList.size()     << std::endl;
+    std::cout << "Average of notes: "       << averageNote          << std::endl;
+    std::cout << "Minimum note: "           << minimumNote          << std::endl;
+    std::cout << "Maximum note: "           << maximumNote          << std::endl;
+    std::cout << "Even notes: ";
     for (int i = 0; i <= evenNotesList.size()-1; i++) {
         if (std::empty(evenNotesList)) {
-            //Ne boucle pas si pas de valeurs à saisir, évite un crash
+            // Don't loop if there are no values, avoid crash
             break;
         }
         std::cout << evenNotesList[i] << ", ";
     }
     std::cout << std::endl;
-    //On ajoute les valeurs des différents tableaux respectifs afin de les afficher pour l'utilisateur
-    std::cout << "Notes impaires : ";
+    // Add values from the respective arrays to display them to the user
+    std::cout << "Odd notes: ";
     for (int i = 0; i <= oddNotesList.size()-1; i++) {
         if (std::empty(oddNotesList)) {
-            //Ne boucle pas si pas de valeurs à saisir, évite un crash
+            // Don't loop if there are no values, avoid crash
             break;
         }
         std::cout << oddNotesList[i] << ", ";
     }
     std::cout << std::endl;
-    std::cout << "Notes décimales : ";
+    std::cout << "Decimal notes: ";
     for (int i = 0; i <= decimalNotesList.size()-1; i++) {
         if (std::empty(decimalNotesList)) {
-            //Ne boucle pas si pas de valeurs à saisir, évite un crash
+            // Don't loop if there are no values, avoid crash
             break;
         }
         std::cout << decimalNotesList[i] << ", ";
@@ -96,34 +96,34 @@ void table_calculate() {
     std::cout << std::endl;
 }
 
-// Fonction de création des valeurs
+// Function for creating values
 void table_creation() {
     isCreatingTable = true;
-    //boucle infinie normale, ajoute les valeurs au tableau tant que voulu
+    // Normal infinite loop, adds values to the array as long as desired
     while (isCreatingTable) {
         isNotePossible = true;
 
-        //Demande de l'entrée des notes, y pour terminer le programme
-        std::cout << "Entrez (y) quand vous avez terminé avec l'entrée des notes : ";
-        std::cout << "Entrez une note entre 0 et 20 : ";
+        // Ask for notes input, y to finish the program
+        std::cout << "Enter (y) when you are done entering notes: ";
+        std::cout << "Enter a note between 0 and 20: ";
         std::cin >> answer;
 
-        //Vérifie si la valeur entrée est différente de y, afin de continuer la boucle
+        // Check if the input is different from y to continue the loop
         if (answer != "y") {
-            //On tente alors de convertir le string de l'input en float pour la note
+            // Try to convert the input string to a float for the note
             try {
                 note = std::stof(answer);
             }
-            //En cas d'erreur, si l'utilisateur entre ni y ni une note, on gère cela
+            // Handle error if the user enters neither y nor a note
             catch (const std::invalid_argument& e) {
-                std::cout << "Valeur incorrecte, veuillez réessayer" << std::endl;
-                //On n'effectue pas la fin de la boucle afin de redemander un nouvel input
+                std::cout << "Invalid value, please try again" << std::endl;
+                // Do not finish the loop to request new input
                 isNotePossible = false;
             }
-            //Si la note dépasse les bornes demandées, on gère cela
+            // Handle notes that exceed the requested range
             if (!(note>=0 && note<=20)) {
-                std::cout << "Note impossible, veuillez réessayer" << std::endl;
-                //On n'effectue pas la fin de la boucle afin de redemander un nouvel input
+                std::cout << "Impossible note, please try again" << std::endl;
+                // Do not finish the loop to request new input
                 isNotePossible = false;
             }
         }
@@ -131,24 +131,24 @@ void table_creation() {
             table_calculate();
             break;
         }
-        //Si la note est correcte, on demande alors le coeff
+        // If the note is correct, ask for the coefficient
         if (isNotePossible) {
-            std::cout << "Entrez un coeff (entiers uniquement) : ";
+            std::cout << "Enter a coefficient (integers only): ";
             std::cin >> coeff;
         }
-        //Si le coeff est impossible, alors on n'effectue pas la fin de la boucle pour recommencer
+        // If the coefficient is impossible, do not finish the loop to restart
         if (coeff<0) {
-            std::cout << "Le coefficient n'est pas possible, veuillez réessayer" << std::endl;
+            std::cout << "The coefficient is not possible, please try again" << std::endl;
             isNotePossible = false;
         }
-        //Si la note et son coeff sont ok, on effectue alors l'ajout ici
+        // If both the note and its coefficient are okay, add them here
         if (isNotePossible) {
-            //Boucle afin d'ajouter le nb de notes en fonction du coeff
+            // Loop to add the number of notes based on the coefficient
             for (int i = 0; i < coeff; i++) {
                 notesList.push_back(note);
             }
-            //On donne la liste afin d'informer l'utilisateur des notes entrées
-            std::cout << "Voici la liste actuelle (par coeff 1) : ";
+            // Display the list to inform the user of the entered notes
+            std::cout << "Here is the current list (per coefficient 1): ";
             for (int i = 0; i <= notesList.size()-1; i++) {
                 std::cout << notesList[i] << ", ";
             }
@@ -162,9 +162,9 @@ int main() {
     notesList.clear();
     evenNotesList.clear();
     oddNotesList.clear();
-    std::cout << "Calculateur de moyenne : " << std::endl;
+    std::cout << "Average Calculator: " << std::endl;
     table_creation();
-    std::cout << "Souhaitez-vous continuer ? (y/autre)";
+    std::cout << "Do you want to continue? (y/other)";
     std::cin.clear();
     std::cin >> answer;
     if (answer=="y") {

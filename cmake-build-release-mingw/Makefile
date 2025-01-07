@@ -56,10 +56,10 @@ RM = "F:\Programmes\Logiciels\CLion 2024.3.1.1\bin\cmake\win\x64\bin\cmake.exe" 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = F:\Programmation\Projets\CalculMoyenneNotes
+CMAKE_SOURCE_DIR = "F:\Programmation\Projets\Average Notes Calculator"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = F:\Programmation\Projets\CalculMoyenneNotes\cmake-build-release-mingw
+CMAKE_BINARY_DIR = "F:\Programmation\Projets\Average Notes Calculator\cmake-build-release-mingw"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\Programmation\Projets\CalculMoyenneNotes\cmake-build-release-mingw\CMakeFiles F:\Programmation\Projets\CalculMoyenneNotes\cmake-build-release-mingw\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start "F:\Programmation\Projets\Average Notes Calculator\cmake-build-release-mingw\CMakeFiles" "F:\Programmation\Projets\Average Notes Calculator\cmake-build-release-mingw\\CMakeFiles\progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\Programmation\Projets\CalculMoyenneNotes\cmake-build-release-mingw\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "F:\Programmation\Projets\Average Notes Calculator\cmake-build-release-mingw\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -116,24 +116,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named CalculMoyenneNotes
+# Target rules for targets named AverageNotesCalculator
 
 # Build rule for target.
-CalculMoyenneNotes: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CalculMoyenneNotes
-.PHONY : CalculMoyenneNotes
+AverageNotesCalculator: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 AverageNotesCalculator
+.PHONY : AverageNotesCalculator
 
 # fast build rule for target.
-CalculMoyenneNotes/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CalculMoyenneNotes.dir\build.make CMakeFiles/CalculMoyenneNotes.dir/build
-.PHONY : CalculMoyenneNotes/fast
+AverageNotesCalculator/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AverageNotesCalculator.dir\build.make CMakeFiles/AverageNotesCalculator.dir/build
+.PHONY : AverageNotesCalculator/fast
 
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
 # target to build an object file
 main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CalculMoyenneNotes.dir\build.make CMakeFiles/CalculMoyenneNotes.dir/main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AverageNotesCalculator.dir\build.make CMakeFiles/AverageNotesCalculator.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -141,7 +141,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CalculMoyenneNotes.dir\build.make CMakeFiles/CalculMoyenneNotes.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AverageNotesCalculator.dir\build.make CMakeFiles/AverageNotesCalculator.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -149,7 +149,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CalculMoyenneNotes.dir\build.make CMakeFiles/CalculMoyenneNotes.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AverageNotesCalculator.dir\build.make CMakeFiles/AverageNotesCalculator.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -160,7 +160,7 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... CalculMoyenneNotes
+	@echo ... AverageNotesCalculator
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "F:/Programmation/Projets/CalculMoyenneNotes/main.cpp" "CMakeFiles/CalculMoyenneNotes.dir/main.cpp.obj" "gcc" "CMakeFiles/CalculMoyenneNotes.dir/main.cpp.obj.d"
+  "F:/Programmation/Projets/Average Notes Calculator/main.cpp" "CMakeFiles/AverageNotesCalculator.dir/main.cpp.obj" "gcc" "CMakeFiles/AverageNotesCalculator.dir/main.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

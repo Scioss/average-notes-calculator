@@ -1,0 +1,69 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.30"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "CalculMoyenneNotes",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "CalculMoyenneNotes::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CalculMoyenneNotes-Debug-0bd012acfb18d1c9b62c.json",
+					"name" : "CalculMoyenneNotes",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "MyExecutable.exe::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MyExecutable.exe-Debug-1f711d700bb9e8c2cd2e.json",
+					"name" : "MyExecutable.exe",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "F:/Programmation/Projets/CalculMoyenneNotes/cmake-build-debug",
+		"source" : "F:/Programmation/Projets/CalculMoyenneNotes"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

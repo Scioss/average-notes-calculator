@@ -1,0 +1,7 @@
+# ninja log v6
+1	82	1736203035156354139	CMakeFiles/CalculMoyenneNotes.dir/main.cpp.o.ddi	287c185ceab762e5
+83	86	1736203035241354471	CMakeFiles/CalculMoyenneNotes.dir/CXX.dd	fbece207b5d9703c
+83	86	1736203035241354471	/home/clement/Bureau/Projets/C++/CalculMoyenneNotes/cmake-build-release-mingw-w64/CMakeFiles/CalculMoyenneNotes.dir/CXXModules.json	fbece207b5d9703c
+83	86	1736203035241354471	CMakeFiles/CalculMoyenneNotes.dir/main.cpp.o.modmap	fbece207b5d9703c
+86	583	1736203035242354475	CMakeFiles/CalculMoyenneNotes.dir/main.cpp.o	507e40557eddd0c9
+583	632	1736203035738356414	CalculMoyenneNotes	bffab0c8451aa511

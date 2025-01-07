@@ -1,0 +1,340 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Linux - 6.12.7-200.fc41.x86_64 - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/bin/eu-elfclassify 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/bin/eu-elfclassify 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      64
+      /usr/bin/eu-elfclassify: invalid option -- 'c'
+      Try `eu-elfclassify --help' or `eu-elfclassify --usage' for more information.
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/bin/eu-elfclassify 
+      Build flags: 
+      Id flags: -Aa 
+      
+      The output was:
+      64
+      /usr/bin/eu-elfclassify: invalid option -- 'A'
+      Try `eu-elfclassify --help' or `eu-elfclassify --usage' for more information.
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/bin/eu-elfclassify 
+      Build flags: 
+      Id flags: -D__CLASSIC_C__ 
+      
+      The output was:
+      64
+      /usr/bin/eu-elfclassify: invalid option -- 'D'
+      Try `eu-elfclassify --help' or `eu-elfclassify --usage' for more information.
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/bin/eu-elfclassify 
+      Build flags: 
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      64
+      /usr/bin/eu-elfclassify: unrecognized option '--target=arm-arm-none-eabi'
+      Try `eu-elfclassify --help' or `eu-elfclassify --usage' for more information.
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/bin/eu-elfclassify 
+      Build flags: 
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      64
+      /usr/bin/eu-elfclassify: invalid option -- 'c'
+      Try `eu-elfclassify --help' or `eu-elfclassify --usage' for more information.
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/bin/eu-elfclassify 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/bin/eu-elfclassify 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      64
+      /usr/bin/eu-elfclassify: invalid option -- 'c'
+      Try `eu-elfclassify --help' or `eu-elfclassify --usage' for more information.
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/bin/eu-elfclassify 
+      Build flags: 
+      Id flags: -Aa 
+      
+      The output was:
+      64
+      /usr/bin/eu-elfclassify: invalid option -- 'A'
+      Try `eu-elfclassify --help' or `eu-elfclassify --usage' for more information.
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/bin/eu-elfclassify 
+      Build flags: 
+      Id flags: -D__CLASSIC_C__ 
+      
+      The output was:
+      64
+      /usr/bin/eu-elfclassify: invalid option -- 'D'
+      Try `eu-elfclassify --help' or `eu-elfclassify --usage' for more information.
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/bin/eu-elfclassify 
+      Build flags: 
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      64
+      /usr/bin/eu-elfclassify: unrecognized option '--target=arm-arm-none-eabi'
+      Try `eu-elfclassify --help' or `eu-elfclassify --usage' for more information.
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/bin/eu-elfclassify 
+      Build flags: 
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      64
+      /usr/bin/eu-elfclassify: invalid option -- 'c'
+      Try `eu-elfclassify --help' or `eu-elfclassify --usage' for more information.
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:1205 (message)"
+      - "/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:86 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:1205 (message)"
+      - "/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:86 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /usr/bin/x86_64-unknown-linux-gnu-g++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /home/clement/Bureau/Projets/C++/CalculMoyenneNotes/cmake-build-release-mingw-w64/CMakeFiles/3.30.5/CompilerIdCXX/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/clement/Bureau/Projets/C++/CalculMoyenneNotes/cmake-build-release-mingw-w64/CMakeFiles/CMakeScratch/TryCompile-Lt0Mid"
+      binary: "/home/clement/Bureau/Projets/C++/CalculMoyenneNotes/cmake-build-release-mingw-w64/CMakeFiles/CMakeScratch/TryCompile-Lt0Mid"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/clement/Bureau/Projets/C++/CalculMoyenneNotes/cmake-build-release-mingw-w64/CMakeFiles/CMakeScratch/TryCompile-Lt0Mid'
+        
+        Run Build Command(s): /app/extra/clion/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_478fb/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_478fb.dir/build.make CMakeFiles/cmTC_478fb.dir/build
+        make[1]: Entering directory '/home/clement/Bureau/Projets/C++/CalculMoyenneNotes/cmake-build-release-mingw-w64/CMakeFiles/CMakeScratch/TryCompile-Lt0Mid'
+        Building C object CMakeFiles/cmTC_478fb.dir/CMakeCCompilerABI.c.o
+        /usr/bin/eu-elfclassify    -o CMakeFiles/cmTC_478fb.dir/CMakeCCompilerABI.c.o -c /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCCompilerABI.c
+        /usr/bin/eu-elfclassify: invalid option -- 'o'
+        Try `eu-elfclassify --help' or `eu-elfclassify --usage' for more information.
+        make[1]: *** [CMakeFiles/cmTC_478fb.dir/build.make:78: CMakeFiles/cmTC_478fb.dir/CMakeCCompilerABI.c.o] Error 64
+        make[1]: Leaving directory '/home/clement/Bureau/Projets/C++/CalculMoyenneNotes/cmake-build-release-mingw-w64/CMakeFiles/CMakeScratch/TryCompile-Lt0Mid'
+        make: *** [Makefile:127: cmTC_478fb/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Check for working C compiler: /usr/bin/eu-elfclassify"
+    directories:
+      source: "/home/clement/Bureau/Projets/C++/CalculMoyenneNotes/cmake-build-release-mingw-w64/CMakeFiles/CMakeScratch/TryCompile-mGjX2W"
+      binary: "/home/clement/Bureau/Projets/C++/CalculMoyenneNotes/cmake-build-release-mingw-w64/CMakeFiles/CMakeScratch/TryCompile-mGjX2W"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: '/home/clement/Bureau/Projets/C++/CalculMoyenneNotes/cmake-build-release-mingw-w64/CMakeFiles/CMakeScratch/TryCompile-mGjX2W'
+        
+        Run Build Command(s): /app/extra/clion/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_db5b5/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_db5b5.dir/build.make CMakeFiles/cmTC_db5b5.dir/build
+        make[1] : on entre dans le répertoire « /home/clement/Bureau/Projets/C++/CalculMoyenneNotes/cmake-build-release-mingw-w64/CMakeFiles/CMakeScratch/TryCompile-mGjX2W »
+        Building C object CMakeFiles/cmTC_db5b5.dir/testCCompiler.c.o
+        /usr/bin/eu-elfclassify    -o CMakeFiles/cmTC_db5b5.dir/testCCompiler.c.o -c /home/clement/Bureau/Projets/C++/CalculMoyenneNotes/cmake-build-release-mingw-w64/CMakeFiles/CMakeScratch/TryCompile-mGjX2W/testCCompiler.c
+        /usr/bin/eu-elfclassify: invalid option -- 'o'
+        Try `eu-elfclassify --help' or `eu-elfclassify --usage' for more information.
+        make[1]: *** [CMakeFiles/cmTC_db5b5.dir/build.make:78: CMakeFiles/cmTC_db5b5.dir/testCCompiler.c.o] Error 64
+        make[1] : on quitte le répertoire « /home/clement/Bureau/Projets/C++/CalculMoyenneNotes/cmake-build-release-mingw-w64/CMakeFiles/CMakeScratch/TryCompile-mGjX2W »
+        make: *** [Makefile:127: cmTC_db5b5/fast] Error 2
+        
+      exitCode: 2
+...

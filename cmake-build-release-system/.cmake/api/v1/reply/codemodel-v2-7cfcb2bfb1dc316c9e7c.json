@@ -1,0 +1,69 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Release-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.30"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "CalculMoyenneNotes",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "CalculMoyenneNotes::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CalculMoyenneNotes-Release-9ccec2a25c2c242e8464.json",
+					"name" : "CalculMoyenneNotes",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "MyExecutable.exe::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MyExecutable.exe-Release-3ce9d3d53563dbe856c9.json",
+					"name" : "MyExecutable.exe",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/clement/Bureau/Projets/C++/CalculMoyenneNotes/cmake-build-release-system",
+		"source" : "/home/clement/Bureau/Projets/C++/CalculMoyenneNotes"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
